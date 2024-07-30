@@ -7,6 +7,3 @@ n = { type = "number", description = "n" }
 
 [output]
 result = { type = "number", description = "fibonacci sequence for n" }
-
-[proof-preference]
-type = "none"
