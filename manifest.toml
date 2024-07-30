@@ -5,13 +5,6 @@ type = "Dynamic"
 [input]
 n = { type = "number", description = "n" }
 
-# The code section should be left empty,
-# as it will be automatically populated by the Clique CLI during the build stage.
-[code]
-type = ""
-data = ""
-abi = ""
-
 [output]
 result = { type = "number", description = "fibonacci sequence for n" }
 
