@@ -1,5 +1,5 @@
 spec-version = "1"
-name = "Clique_Fibonacci"
+name = "clique_fibonacci"
 type = "Dynamic"
 
 proof-type = ["TEE"]
