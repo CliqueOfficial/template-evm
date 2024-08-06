@@ -1,8 +1,11 @@
-specVersion = "1"
-name = "Fibonacci"
+spec-version = "1"
+name = "clique_fibonacci"
 type = "Dynamic"
+
+proof-type = ["TEE"]
+
 [input]
-n = { type = "number", description = "n" }
+n = { type = "u256", description = "n" }
 
 [output]
-result = { type = "number", description = "fibonacci sequence for n" }
+result = { type = "u256", description = "fibonacci sequence for n" }
